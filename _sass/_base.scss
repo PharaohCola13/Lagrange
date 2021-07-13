@@ -7,6 +7,7 @@ body {
   font-size: 18px;
   color: $body-color;
   line-height: 1.75rem;
+  background-color: $background-color;
 }
 
 @media (max-width: $elements-responsive-width) {
@@ -29,12 +30,12 @@ h1 a {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $sans-serif-font-family;
-  color: $dark-gray-color;
+  color: $header-color;
 }
 
 a {
   text-decoration: underline;
-  color: $dark-gray-color;
+  color: $light-gray-color;
 }
 
 a:hover {

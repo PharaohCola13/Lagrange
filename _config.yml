@@ -17,11 +17,12 @@ paginate:            5
 markdown:            kramdown
 highlighter:         rouge
 permalink:           /:title
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           'Blog'
-description:	       'A blog'
-author:              'Spencer Riley'
+title: 'The Outer Rim'
+description: 'Guides to apparently obscure data science'
+author: 'Spencer Riley'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:

@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Welcome to Lagrange!
+title: About
 permalink: /about
 ---
 
-Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.
+I am an astrophysics undergraduate student that is getting a bit frustrated at not finding the right documentation or procedure for what I am working on, so I have decided to just shove it all here. If I make my own procedure for some random project I am working on, it'll be here. 
 
-### Getting Started

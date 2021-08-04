@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 ---
 
@@ -31,3 +32,40 @@ $codepen-color:        black;
 $rss-color:            #ff6600;
 
 @import "-sections-dir";
+=======
+---
+---
+
+$sans-serif-font-family: "Quattrocento Sans", sans-serif;
+$serif-font-family:      "PT Serif", Georgia, "Times New Roman", serif;
+$code-font-family:       "Source Code Pro", monospace;
+
+$body-color:             #FFF;
+$link-color:             white;
+$background-color:       hsla(231, 15%, 18%, 1);
+
+$code-background-color:   #1d1f21;
+$pagination-button-color: #e0e0e0;
+
+$dark-gray-color:        #333;
+$light-gray-color:       #999;
+$extra-light-gray-color: #ccc;
+$header-color:           #98A6AD;
+
+$container-responsive-width: 768px;
+$elements-responsive-width:  30em;
+
+$icon-transition-time: .5s;
+$envelope-color:       #f39c12;
+$twitter-color:        #00aced;
+$instagram-color:      #375989;
+$github-color:         #343434;
+$linkedin-color:       #0073a4;
+$facebook-color:       #3d5b99;
+$pinterest-color:      #bd081c;
+$medium-color:         #00AB6C;
+$codepen-color:        black;
+$rss-color:            #ff6600;
+
+@import "-sections-dir";
+>>>>>>> 9468e375e4d203b7498754fe58e440de2d8db7ce

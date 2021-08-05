@@ -32,7 +32,7 @@ jobs:
     - name: Checkout Branch
       uses: actions/checkout@master
       with:
-       ref: [branch with docker image]
+       ref: [branch with docker files]
     - name: Login to GHCR
       run: |
         echo $CR_PAT | docker login ghcr.io -u [username] --password-stdin
@@ -66,6 +66,7 @@ There are a lot of possible ways to trigger workflows so I would reccommend look
 # Conclusion
 So, to wrap up. We have briefly discussed how to make a GitHub workflow build and publish to the GitHub Container Registary, and how to activate the workflow. I have added the complete workflow file that we have put together in this short tutortial at the bottom for reference or easy copypasta. 
 
+## Example Workflow
 ```yml
 name: Example GHCR tutorial
 on: [push]
@@ -76,7 +77,7 @@ jobs:
     - name: Checkout Branch
       uses: actions/checkout@master
       with:
-       ref: [branch with docker image]
+       ref: [branch with docker files]
     - name: Login to GHCR
       run: |
         echo $CR_PAT | docker login ghcr.io -u [username] --password-stdin

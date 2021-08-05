@@ -5,6 +5,7 @@ author: "Spencer Riley"
 categories: journal
 tags: [documentation,sample]
 image: whale_boyle.jpg
+status: draft
 ---
 
 In this short two-part discussion, we will introduce building and publishing a docker image to the GitHub Container Registry and then how to use the docker container in GitHub Workflows.

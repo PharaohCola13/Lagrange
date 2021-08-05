@@ -5,6 +5,7 @@ author: "Spencer Riley"
 categories: journal
 tags: [documentation,sample]
 image: whale_boyle.jpg
+status: draft
 ---
 
 Unlike the previous article in this series, this is fairly straight forward. It is this. It is this implementation of running docker images that I have decided to write this series. 

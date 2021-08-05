@@ -47,5 +47,3 @@ The first part of this workflow will be to check out the repository, to make thi
 The next step will be to add a secret to your repository. Refer to the previous section of this guide for the instructions on how to do that. 
 
 Finally, you can replace the `[username]` placeholders with your GitHub username, the `[name]` placeholder with the name of your package and, `[tag]` is a placeholder for the container tag. `latest` is often used for the container tag. However, if you are using a more sophisticated versioning system than simply replace `[tag]` with your scheme. 
-
-Test

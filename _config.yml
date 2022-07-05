@@ -20,7 +20,7 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title: 'The Outer Rim'
+title: 'A Bunch of Nonsense'
 description: 'Guides to apparently obscure data science and other junk'
 author: 'Spencer Riley'
 
